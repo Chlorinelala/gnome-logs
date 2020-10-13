@@ -1,0 +1,365 @@
+# Polish translation for gnome-logs.
+# Copyright © 2013-2016 the gnome-logs authors.
+# This file is distributed under the same license as the gnome-logs package.
+# Piotr Drąg <piotrdrag@gmail.com>, 2013-2016.
+# Aviary.pl <community-poland@mozilla.org>, 2013-2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-logs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-09 00:25+0200\n"
+"PO-Revision-Date: 2016-09-09 00:27+0200\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"Language-Team: Polish <community-poland@mozilla.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: ../data/gl-categorylist.ui.h:1
+msgid "Important"
+msgstr "Ważne"
+
+#: ../data/gl-categorylist.ui.h:2
+msgid "Alerts"
+msgstr "Alarmy"
+
+#: ../data/gl-categorylist.ui.h:3
+msgid "Starred"
+msgstr "Oznaczone gwiazdką"
+
+#: ../data/gl-categorylist.ui.h:4
+msgid "All"
+msgstr "Wszystkie"
+
+#: ../data/gl-categorylist.ui.h:5 ../src/gl-eventviewrow.c:202
+msgid "Applications"
+msgstr "Programy"
+
+#: ../data/gl-categorylist.ui.h:6 ../src/gl-eventviewrow.c:211
+msgid "System"
+msgstr "Systemowe"
+
+#: ../data/gl-categorylist.ui.h:7 ../src/gl-eventviewrow.c:215
+msgid "Security"
+msgstr "Bezpieczeństwo"
+
+#: ../data/gl-categorylist.ui.h:8 ../src/gl-eventviewrow.c:207
+msgid "Hardware"
+msgstr "Sprzęt"
+
+#: ../data/gl-categorylist.ui.h:9
+msgid "Updates"
+msgstr "Aktualizacje"
+
+#: ../data/gl-categorylist.ui.h:10
+msgid "Usage"
+msgstr "Wykorzystanie"
+
+#: ../data/gl-eventtoolbar.ui.h:1
+msgid "Go back to the event view"
+msgstr "Przechodzi wstecz do widoku zdarzeń"
+
+#: ../data/gl-eventtoolbar.ui.h:2
+msgid "Export logs to a file"
+msgstr "Eksportuje dzienniki do pliku"
+
+#: ../data/gl-eventtoolbar.ui.h:3
+msgid "Choose the boot from which to view logs"
+msgstr "Wybiera uruchomienie, z którego wyświetlać dzienniki"
+
+#: ../data/gl-eventtoolbar.ui.h:4
+msgid "Search all the logs of the current category"
+msgstr "Przeszukuje wszystkie dzienniki bieżącej kategorii"
+
+#: ../data/gl-eventviewdetail.ui.h:1
+msgid "Message"
+msgstr "Komunikat"
+
+#: ../data/gl-eventviewdetail.ui.h:2
+msgid "Audit Session"
+msgstr "Sesja audytu"
+
+#: ../data/gl-eventviewdetail.ui.h:3
+msgid "Kernel Device"
+msgstr "Urządzenie jądra"
+
+#: ../data/gl-eventviewdetail.ui.h:4
+msgid "Priority"
+msgstr "Priorytet"
+
+#: ../data/gl-eventviewdetail.ui.h:5
+msgid "Subject"
+msgstr "Temat"
+
+#: ../data/gl-eventviewdetail.ui.h:6
+msgid "Defined By"
+msgstr "Określone przez"
+
+#: ../data/gl-eventviewdetail.ui.h:7
+msgid "Support"
+msgstr "Wsparcie"
+
+#: ../data/gl-eventviewdetail.ui.h:8
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+#: ../data/gl-window.ui.h:1
+msgid "Help"
+msgstr "Pomoc"
+
+#: ../data/help-overlay.ui.h:1
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Ogólne"
+
+#: ../data/help-overlay.ui.h:2
+msgctxt "shortcut window"
+msgid "Open a new window"
+msgstr "Otwarcie nowego okna"
+
+#: ../data/help-overlay.ui.h:3
+msgctxt "shortcut window"
+msgid "Close a window"
+msgstr "Zamknięcie okna"
+
+#: ../data/help-overlay.ui.h:4
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Wyszukiwanie"
+
+#: ../data/help-overlay.ui.h:5
+msgctxt "shortcut window"
+msgid "Find"
+msgstr "Wyszukiwanie"
+
+#: ../data/menus.ui.h:1
+msgid "_New Window"
+msgstr "_Nowe okno"
+
+#: ../data/menus.ui.h:2
+msgid "_Help"
+msgstr "Pomo_c"
+
+#: ../data/menus.ui.h:3
+msgid "Keyboard Shortcuts"
+msgstr "Skróty klawiszowe"
+
+#: ../data/menus.ui.h:4
+msgid "_About"
+msgstr "_O programie"
+
+#: ../data/menus.ui.h:5
+msgid "_Quit"
+msgstr "Za_kończ"
+
+#: ../data/org.gnome.Logs.appdata.xml.in.h:1
+msgid "GNOME Logs"
+msgstr "Przeglądarka dzienników GNOME"
+
+#: ../data/org.gnome.Logs.appdata.xml.in.h:2
+#: ../data/org.gnome.Logs.desktop.in.h:3
+msgid "View detailed event logs for the system"
+msgstr "Wyświetlanie szczegółowych dzienników zdarzeń w systemie"
+
+#: ../data/org.gnome.Logs.appdata.xml.in.h:3
+msgid ""
+"Logs shows events from the systemd journal, and sorts them into categories, "
+"such as hardware and applications."
+msgstr ""
+"Przeglądarka dzienników wyświetla zdarzenia z dziennika systemd i porządkuje "
+"je według kategorii, takich jak sprzęt i programy."
+
+#: ../data/org.gnome.Logs.appdata.xml.in.h:4
+msgid ""
+"Using Logs you can search your logs by typing a search term, and view "
+"detailed information about each event by clicking on it."
+msgstr ""
+"Za pomocą przeglądarki dzienników można przeszukiwać dzienniki wpisując "
+"szukany termin oraz wyświetlać szczegółowe informacje o każdym zdarzeniu po "
+"jego kliknięciu."
+
+#: ../data/org.gnome.Logs.desktop.in.h:1 ../src/gl-eventtoolbar.c:124
+msgid "Logs"
+msgstr "Dzienniki"
+
+#: ../data/org.gnome.Logs.desktop.in.h:2
+msgid "Log Viewer"
+msgstr "Przeglądarka dzienników"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: ../data/org.gnome.Logs.desktop.in.h:5
+msgid "log;journal;debug;error;"
+msgstr "dziennik;logi;journal;journald;debugowanie;debuggowanie;błąd;error;"
+
+#: ../data/org.gnome.Logs.gschema.xml.h:1
+msgid "How to sort list rows in the event view list"
+msgstr "Jak porządkować rzędy list na liście widoków zdarzeń"
+
+#: ../data/org.gnome.Logs.gschema.xml.h:2
+msgid "Sort list rows in ascending or descending order for the selected type"
+msgstr "Porządkowanie rzędów list rosnąco lub malejąco dla wybranego typu"
+
+#: ../src/gl-application.c:110
+msgid "translator-credits"
+msgstr ""
+"Piotr Drąg <piotrdrag@gmail.com>, 2013-2016\n"
+"Aviary.pl <community-poland@mozilla.org>, 2013-2016"
+
+#: ../src/gl-application.c:111
+msgid "View and search logs"
+msgstr "Wyświetlanie i przeszukiwanie dzienników"
+
+#: ../src/gl-application.c:239
+msgid "Print version information and exit"
+msgstr "Wyświetla informację o wersji i kończy działanie"
+
+#. Translators: Boot refers to a single run (or bootup) of the system
+#: ../src/gl-eventtoolbar.c:115
+msgid "Boot"
+msgstr "Uruchomienie"
+
+#. Translators: Shown when there are no (zero) results in the current
+#. * view.
+#: ../src/gl-eventviewlist.c:290
+msgid "No results"
+msgstr "Brak wyników"
+
+#: ../src/gl-eventviewrow.c:219
+msgid "Other"
+msgstr "Inne"
+
+#. Translators: timestamp format for events on the
+#. * current day, showing the time with seconds in
+#. * 12-hour format.
+#: ../src/gl-util.c:148
+msgid "%l:%M:%S %p"
+msgstr "%l∶%M∶%S %p"
+
+#. Translators: timestamp format for events on the
+#. * current day, showing the time without seconds in
+#. * 12-hour format.
+#: ../src/gl-util.c:155
+msgid "%l:%M %p"
+msgstr "%l∶%M %p"
+
+#. Translators: timestamp format for events in
+#. * the current year, showing the abbreviated
+#. * month name, day of the month and the time
+#. * with seconds in 12-hour format.
+#: ../src/gl-util.c:166
+msgid "%b %e %l:%M:%S %p"
+msgstr "%e %b, %l∶%M∶%S %p"
+
+#. Translators: timestamp format for events in the
+#. * current year, showing the abbreviated month name,
+#. * day of the month and the time without seconds in
+#. * 12-hour format.
+#: ../src/gl-util.c:174
+msgid "%b %e %l:%M %p"
+msgstr "%e %b, %l∶%M %p"
+
+#. Translators: timestamp format for events in
+#. * a different year, showing the abbreviated
+#. * month name, day of the month, year and the
+#. * time with seconds in 12-hour format.
+#: ../src/gl-util.c:185
+msgid "%b %e %Y %l:%M:%S %p"
+msgstr "%e %b %Y, %l∶%M∶%S %p"
+
+#. Translators: timestamp format for events in
+#. * a different year, showing the abbreviated
+#. * month name day of the month, year and the
+#. * time without seconds in 12-hour format.
+#: ../src/gl-util.c:194
+msgid "%b %e %Y %l:%M %p"
+msgstr "%e %b %Y, %l∶%M %p"
+
+#. Translators: timestamp format for events on the
+#. * current day, showing the time with seconds in
+#. * 24-hour format.
+#: ../src/gl-util.c:211
+msgid "%H:%M:%S"
+msgstr "%H∶%M∶%S"
+
+#. Translators: timestamp format for events on the
+#. * current day, showing the time without seconds in
+#. * 24-hour format.
+#: ../src/gl-util.c:218
+msgid "%H:%M"
+msgstr "%H∶%M"
+
+#. Translators: timestamp format for events in the
+#. * current year, showing the abbreviated month name,
+#. * day of the month and the time with seconds in
+#. * 24-hour format.
+#: ../src/gl-util.c:228
+msgid "%b %e %H:%M:%S"
+msgstr "%e %b, %H∶%M∶%S"
+
+#. Translators: timestamp format for events in the
+#. * current year, showing the abbreviated month name,
+#. * day of the month and the time without seconds in
+#. * 24-hour format.
+#: ../src/gl-util.c:236
+msgid "%b %e %H:%M"
+msgstr "%e %b, %H∶%M"
+
+#. Translators: timestamp format for events in
+#. * a different year, showing the abbreviated
+#. * month name, day of the month, year and the
+#. * time with seconds in 24-hour format.
+#: ../src/gl-util.c:247
+msgid "%b %e %Y %H:%M:%S"
+msgstr "%e %b %Y, %H∶%M∶%S"
+
+#. Translators: timestamp format for events in a
+#. * different year, showing the abbreviated month name,
+#. * day of the month, year and the time without seconds
+#. * in 24-hour format.
+#: ../src/gl-util.c:255
+msgid "%b %e %Y %H:%M"
+msgstr "%e %b %Y, %H∶%M"
+
+#. Transltors: the first string is the earliest timestamp of the boot,
+#. * and the second string is the newest timestamp. An example string might
+#. * be '08:10 - 08:30'
+#: ../src/gl-util.c:319
+#, c-format
+msgid "%s – %s"
+msgstr "%s – %s"
+
+#: ../src/gl-window.c:186
+msgid "Save logs"
+msgstr "Zapisanie dzienników"
+
+#: ../src/gl-window.c:189
+msgid "_Cancel"
+msgstr "_Anuluj"
+
+#: ../src/gl-window.c:190
+msgid "_Save"
+msgstr "_Zapisz"
+
+#: ../src/gl-window.c:195
+msgid "log messages"
+msgstr "komunikaty dziennika"
+
+#: ../src/gl-window.c:248
+msgid "Unable to export log messages to a file"
+msgstr "Nie można wyeksportować komunikatów dziennika do pliku"
+
+#: ../src/gl-window.c:474 ../src/gl-window.c:505
+msgid "Unable to read system logs"
+msgstr "Nie można odczytać dzienników systemowych"
+
+#: ../src/gl-window.c:488
+msgid "Unable to read user logs"
+msgstr "Nie można odczytać dzienników użytkownika"
+
+#: ../src/gl-window.c:520
+msgid "No logs available"
+msgstr "Brak dostępnych dzienników"

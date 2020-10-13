@@ -1,0 +1,35 @@
+/* Theme overrides. */
+.categories {
+    background-color: shade(@theme_bg_color, 0.99)
+}
+
+.category {
+    padding: 15px;
+    padding-right: 30px;
+}
+
+.detail-comm {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.detail-audit_session, .detail-kernel_device, .detail-message, .detail-priority, .detail-time, .detail-subject, .detail-definedby, .detail-support, .detail-documentation, .detail-message {
+    padding: 10px;
+}
+
+.detail-field-label {
+    padding-left: 10px;
+}
+
+.event {
+    padding: 5px;
+}
+
+.event-time {
+    font-size: small;
+}
+
+.title-menu-button {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}

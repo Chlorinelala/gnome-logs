@@ -1,0 +1,14 @@
+Bug: https://bugzilla.gnome.org/show_bug.cgi?id=776818
+
+--- a/src/gl-eventviewlist.c
++++ b/src/gl-eventviewlist.c
+@@ -366,6 +366,9 @@
+ {
+     gchar *boot_value;
+ 
++    if (boot_match == NULL)
++        return NULL;
++
+     boot_value = strchr (boot_match, '=') + 1;
+ 
+     return g_strdup (boot_value);

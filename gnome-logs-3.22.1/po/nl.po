@@ -1,0 +1,220 @@
+# Dutch translation for gnome-logs
+#
+# This file is distributed under the same license as the gnome-logs package.
+#
+# Wouter Bolsterlee <wbolster@gnome.org>, 2014.
+# Jannick Hemelhof <clone1612@me.com>, 2014.
+# Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-logs\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"logs&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-11-16 11:31+0000\n"
+"PO-Revision-Date: 2014-11-16 16:30+0100\n"
+"Last-Translator: Hannie Dumoleyn <hannie@ubuntu-nl.org>\n"
+"Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: ../data/gl-categorylist.ui.h:1
+msgid "Important"
+msgstr "Belangrijk"
+
+#: ../data/gl-categorylist.ui.h:2
+msgid "Alerts"
+msgstr "Meldingen"
+
+#: ../data/gl-categorylist.ui.h:3
+msgid "Starred"
+msgstr "Met ster"
+
+#: ../data/gl-categorylist.ui.h:4
+msgid "All"
+msgstr "Alles"
+
+#: ../data/gl-categorylist.ui.h:5
+msgid "Applications"
+msgstr "Toepassingen"
+
+#: ../data/gl-categorylist.ui.h:6
+msgid "System"
+msgstr "Systeem"
+
+#: ../data/gl-categorylist.ui.h:7
+msgid "Security"
+msgstr "Beveiliging"
+
+#: ../data/gl-categorylist.ui.h:8
+msgid "Hardware"
+msgstr "Hardware"
+
+#: ../data/gl-categorylist.ui.h:9
+msgid "Updates"
+msgstr "Updates"
+
+#: ../data/gl-categorylist.ui.h:10
+msgid "Usage"
+msgstr "Gebruik"
+
+#. Name and summary taken from the desktop file.
+#: ../data/gl-eventtoolbar.ui.h:1 ../data/org.gnome.Logs.appdata.xml.in.h:2
+#: ../data/org.gnome.Logs.desktop.in.h:1
+msgid "Logs"
+msgstr "Logboek"
+
+#: ../data/gl-eventtoolbar.ui.h:2
+msgid "Go back to the event view"
+msgstr "Terug naar het gebeurtenissenoverzicht"
+
+#: ../data/gl-eventtoolbar.ui.h:3
+msgid "Search the displayed logs"
+msgstr "Weergegeven logmeldingen doorzoeken"
+
+#: ../data/gl-eventviewdetail.ui.h:1
+msgid "Message"
+msgstr "Bericht"
+
+#: ../data/gl-eventviewdetail.ui.h:2
+msgid "Audit Session"
+msgstr "Audit-sessie"
+
+#: ../data/gl-eventviewdetail.ui.h:3
+msgid "Kernel Device"
+msgstr "Kernel-apparaat"
+
+#: ../data/gl-eventviewdetail.ui.h:4
+msgid "Priority"
+msgstr "Prioriteit"
+
+#: ../data/gl-eventviewdetail.ui.h:5
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: ../data/gl-eventviewdetail.ui.h:6
+msgid "Defined By"
+msgstr "Gedefinieerd door"
+
+#: ../data/gl-eventviewdetail.ui.h:7
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: ../data/gl-eventviewdetail.ui.h:8
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: ../data/menus.ui.h:1
+msgid "_New Window"
+msgstr "_Nieuw venster"
+
+#: ../data/menus.ui.h:2
+msgid "_Help"
+msgstr "_Hulp"
+
+#: ../data/menus.ui.h:3
+msgid "_About"
+msgstr "I_nfo"
+
+#: ../data/menus.ui.h:4
+msgid "_Quit"
+msgstr "_Afsluiten"
+
+#: ../data/org.gnome.Logs.appdata.xml.in.h:3
+#: ../data/org.gnome.Logs.desktop.in.h:3
+msgid "View detailed event logs for the system"
+msgstr "Inzage in de logboeken van het systeem"
+
+#: ../data/org.gnome.Logs.appdata.xml.in.h:4
+msgid ""
+"Logs shows events from the systemd journal, and sorts them into categories, "
+"such as hardware and applications."
+msgstr ""
+"Logboek toont gebeurtenissen uit het systemd-logboek en toont deze in "
+"verschillende categorieën, zoals hardware en toepassingen."
+
+#: ../data/org.gnome.Logs.appdata.xml.in.h:5
+msgid ""
+"Using Logs you can search your logs by typing a search term, and view "
+"detailed information about each event by clicking on it."
+msgstr ""
+"Met Logboek kunt u gebeurtenissen doorzoeken door een zoekterm in te typen "
+"en vervolgens detailinformatie inzien door op een gebeurtenis te klikken."
+
+#: ../data/org.gnome.Logs.desktop.in.h:2
+msgid "Log Viewer"
+msgstr "Logboekviewer"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: ../data/org.gnome.Logs.desktop.in.h:5
+msgid "log;journal;debug;error;"
+msgstr "log;journal;debug;error;logboek;fout;meldingen;foutmeldingen;event;"
+
+#: ../src/gl-application.c:100
+msgid "translator-credits"
+msgstr ""
+"Wouter Bolsterlee\n"
+"http://nl.gnome.org/"
+
+#: ../src/gl-application.c:101
+msgid "View and search logs"
+msgstr "Logboeken inzien en doorzoeken"
+
+#: ../src/gl-application.c:209
+msgid "Print version information and exit"
+msgstr "Versie-informatie tonen en afsluiten"
+
+#. Translators: Shown when there are no (zero) results in the current
+#. * view.
+#: ../src/gl-eventviewlist.c:279
+msgid "No results"
+msgstr "Geen resultaten"
+
+#: ../src/gl-eventviewlist.c:671 ../src/gl-eventviewlist.c:684
+#: ../src/gl-eventviewlist.c:833 ../src/gl-eventviewlist.c:846
+msgid "Not implemented"
+msgstr "Niet geïmplementeerd"
+
+#. Translators: timestamp format for events on the current
+#. * day, showing the time in 12-hour format.
+#: ../src/gl-util.c:95
+msgid "%l:%M %p"
+msgstr "%H:%M"
+
+#. Translators: timestamp format for events in the current
+#. * year, showing the abbreviated month name, day of the
+#. * month and the time in 12-hour format.
+#: ../src/gl-util.c:101
+msgid "%b %e %l:%M %p"
+msgstr "%e %b %H:%M"
+
+#. Translators: timestamp format for events in a different
+#. * year, showing the abbreviated month name, day of the
+#. * month, year and the time in 12-hour format.
+#: ../src/gl-util.c:107
+msgid "%b %e %Y %l:%M %p"
+msgstr "%e %b %Y %H:%M"
+
+#. Translators: timestamp format for events on the current
+#. * day, showing the time in 24-hour format.
+#: ../src/gl-util.c:120
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#. Translators: timestamp format for events in the current
+#. * year, showing the abbreviated month name, day of the
+#. * month and the time in 24-hour format.
+#: ../src/gl-util.c:126
+msgid "%b %e %H:%M"
+msgstr "%e %b %H:%M"
+
+#. Translators: timestamp format for events in a different
+#. * year, showing the abbreviated month name, day of the
+#. * month, year and the time in 24-hour format.
+#: ../src/gl-util.c:132
+msgid "%b %e %Y %H:%M"
+msgstr "%e %b %Y %H:%M"
+

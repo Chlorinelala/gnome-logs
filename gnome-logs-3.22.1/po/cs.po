@@ -1,0 +1,369 @@
+# Czech translation for gnome-logs.
+# Copyright (C) 2013 gnome-logs's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-logs package.
+#
+# Petr Kovar <pknbe@volny.cz>, 2015.
+# Marek Černocký <marek@manet.cz>, 2013, 2014, 2015, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-logs master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"logs&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-08-10 10:34+0000\n"
+"PO-Revision-Date: 2016-08-13 09:37+0200\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: čeština <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Gtranslator 2.91.7\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/gl-categorylist.ui.h:1
+msgid "Important"
+msgstr "Důležité"
+
+#: ../data/gl-categorylist.ui.h:2
+msgid "Alerts"
+msgstr "Varování"
+
+#: ../data/gl-categorylist.ui.h:3
+msgid "Starred"
+msgstr "Významné"
+
+#: ../data/gl-categorylist.ui.h:4
+msgid "All"
+msgstr "Vše"
+
+#: ../data/gl-categorylist.ui.h:5 ../src/gl-eventviewrow.c:202
+msgid "Applications"
+msgstr "Aplikace"
+
+#: ../data/gl-categorylist.ui.h:6 ../src/gl-eventviewrow.c:211
+msgid "System"
+msgstr "Systém"
+
+#: ../data/gl-categorylist.ui.h:7 ../src/gl-eventviewrow.c:215
+msgid "Security"
+msgstr "Bezpečnost"
+
+#: ../data/gl-categorylist.ui.h:8 ../src/gl-eventviewrow.c:207
+msgid "Hardware"
+msgstr "Hardware"
+
+#: ../data/gl-categorylist.ui.h:9
+msgid "Updates"
+msgstr "Aktualizace"
+
+#: ../data/gl-categorylist.ui.h:10
+msgid "Usage"
+msgstr "Využití"
+
+#: ../data/gl-eventtoolbar.ui.h:1
+msgid "Go back to the event view"
+msgstr "Vrátit se na zobrazení události"
+
+#: ../data/gl-eventtoolbar.ui.h:2
+msgid "Export logs to a file"
+msgstr "Exportovat záznamy do souboru"
+
+#: ../data/gl-eventtoolbar.ui.h:3
+msgid "Choose the boot from which to view logs"
+msgstr "Zvolte zavedení systému, pro které chcete zobrazit záznamy"
+
+#: ../data/gl-eventtoolbar.ui.h:4
+msgid "Search all the logs of the current category"
+msgstr "Prohledat všechny záznamy v aktuální kategorii"
+
+#: ../data/gl-eventviewdetail.ui.h:1
+msgid "Message"
+msgstr "Zpráva"
+
+#: ../data/gl-eventviewdetail.ui.h:2
+msgid "Audit Session"
+msgstr "Sezení auditu"
+
+#: ../data/gl-eventviewdetail.ui.h:3
+msgid "Kernel Device"
+msgstr "Jaderné zařízení"
+
+#: ../data/gl-eventviewdetail.ui.h:4
+msgid "Priority"
+msgstr "Priorita"
+
+#: ../data/gl-eventviewdetail.ui.h:5
+msgid "Subject"
+msgstr "Předmět"
+
+#: ../data/gl-eventviewdetail.ui.h:6
+msgid "Defined By"
+msgstr "Definoval"
+
+#: ../data/gl-eventviewdetail.ui.h:7
+msgid "Support"
+msgstr "Podpora"
+
+#: ../data/gl-eventviewdetail.ui.h:8
+msgid "Documentation"
+msgstr "Dokumentace"
+
+#: ../data/gl-window.ui.h:1
+msgid "Help"
+msgstr "Nápověda"
+
+#: ../data/help-overlay.ui.h:1
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Obecné"
+
+#: ../data/help-overlay.ui.h:2
+msgctxt "shortcut window"
+msgid "Open a new window"
+msgstr "Otevřít nové okno"
+
+#: ../data/help-overlay.ui.h:3
+msgctxt "shortcut window"
+msgid "Close a window"
+msgstr "Zavřít okno"
+
+#: ../data/help-overlay.ui.h:4
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Hledání"
+
+#: ../data/help-overlay.ui.h:5
+msgctxt "shortcut window"
+msgid "Find"
+msgstr "Najít"
+
+#: ../data/menus.ui.h:1
+msgid "_New Window"
+msgstr "_Nové okno"
+
+#: ../data/menus.ui.h:2
+msgid "_Help"
+msgstr "_Nápověda"
+
+#: ../data/menus.ui.h:3
+msgid "Keyboard Shortcuts"
+msgstr "Klávesové zkratky"
+
+#: ../data/menus.ui.h:4
+msgid "_About"
+msgstr "O _aplikaci"
+
+#: ../data/menus.ui.h:5
+msgid "_Quit"
+msgstr "U_končit"
+
+#: ../data/org.gnome.Logs.appdata.xml.in.h:1
+msgid "GNOME Logs"
+msgstr "Záznamy GNOME"
+
+#: ../data/org.gnome.Logs.appdata.xml.in.h:2
+#: ../data/org.gnome.Logs.desktop.in.h:3
+msgid "View detailed event logs for the system"
+msgstr "Zobrazte si podrobné záznamy událostí v systému"
+
+#: ../data/org.gnome.Logs.appdata.xml.in.h:3
+msgid ""
+"Logs shows events from the systemd journal, and sorts them into categories, "
+"such as hardware and applications."
+msgstr ""
+"Aplikace Záznamy zobrazuje události ze žurnálu systemd a řadí je do "
+"kategorií, jako jsou třeba hardware nebo aplikace."
+
+#: ../data/org.gnome.Logs.appdata.xml.in.h:4
+msgid ""
+"Using Logs you can search your logs by typing a search term, and view "
+"detailed information about each event by clicking on it."
+msgstr ""
+"Díky aplikaci Záznamy můžete ve svých záznamech vyhledávat jednoduše "
+"napsáním výrazu a ke každé události si pak kliknutím zobrazit podrobnosti."
+
+#: ../data/org.gnome.Logs.desktop.in.h:1 ../src/gl-eventtoolbar.c:124
+msgid "Logs"
+msgstr "Záznamy"
+
+#: ../data/org.gnome.Logs.desktop.in.h:2
+msgid "Log Viewer"
+msgstr "Prohlížeč záznamů o provozu"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: ../data/org.gnome.Logs.desktop.in.h:5
+msgid "log;journal;debug;error;"
+msgstr "log;záznam;protokol;evidence;žurnál;ladění;chyba;"
+
+#: ../data/org.gnome.Logs.gschema.xml.h:1
+msgid "How to sort list rows in the event view list"
+msgstr "Jak řadit řádky v zobrazení seznamu událostí"
+
+#: ../data/org.gnome.Logs.gschema.xml.h:2
+msgid "Sort list rows in ascending or descending order for the selected type"
+msgstr ""
+"Pro vybraný typ řadit řádky seznamu ve vzestupném nebo sestupném pořadí"
+
+#: ../src/gl-application.c:110
+msgid "translator-credits"
+msgstr "Marek Černocký <marek@manet.cz>"
+
+#: ../src/gl-application.c:111
+msgid "View and search logs"
+msgstr "Zobrazit a prohledat záznamy o provozu"
+
+#: ../src/gl-application.c:239
+msgid "Print version information and exit"
+msgstr "Vypsat informace o verzi a skončit"
+
+#. Translators: Boot refers to a single run (or bootup) of the system
+#: ../src/gl-eventtoolbar.c:115
+msgid "Boot"
+msgstr "Spuštění"
+
+#. Translators: Shown when there are no (zero) results in the current
+#. * view.
+#: ../src/gl-eventviewlist.c:290
+msgid "No results"
+msgstr "Žádné výsledky"
+
+#: ../src/gl-eventviewrow.c:219
+msgid "Other"
+msgstr "Ostatní"
+
+#. Translators: timestamp format for events on the
+#. * current day, showing the time with seconds in
+#. * 12-hour format.
+#: ../src/gl-util.c:148
+msgid "%l:%M:%S %p"
+msgstr "%l∶%M:%S %p"
+
+#. Translators: timestamp format for events on the
+#. * current day, showing the time without seconds in
+#. * 12-hour format.
+#: ../src/gl-util.c:155
+msgid "%l:%M %p"
+msgstr "%l∶%M %p"
+
+#. Translators: timestamp format for events in
+#. * the current year, showing the abbreviated
+#. * month name, day of the month and the time
+#. * with seconds in 12-hour format.
+#: ../src/gl-util.c:166
+msgid "%b %e %l:%M:%S %p"
+msgstr "%e. %B %l∶%M∶%S %p"
+
+#. Translators: timestamp format for events in the
+#. * current year, showing the abbreviated month name,
+#. * day of the month and the time without seconds in
+#. * 12-hour format.
+#: ../src/gl-util.c:174
+msgid "%b %e %l:%M %p"
+msgstr "%e. %B %l∶%M %p"
+
+#. Translators: timestamp format for events in
+#. * a different year, showing the abbreviated
+#. * month name, day of the month, year and the
+#. * time with seconds in 12-hour format.
+#: ../src/gl-util.c:185
+msgid "%b %e %Y %l:%M:%S %p"
+msgstr "%e. %B %Y %l∶%M∶%S %p"
+
+#. Translators: timestamp format for events in
+#. * a different year, showing the abbreviated
+#. * month name day of the month, year and the
+#. * time without seconds in 12-hour format.
+#: ../src/gl-util.c:194
+msgid "%b %e %Y %l:%M %p"
+msgstr "%e. %B %Y %l∶%M %p"
+
+#. Translators: timestamp format for events on the
+#. * current day, showing the time with seconds in
+#. * 24-hour format.
+#: ../src/gl-util.c:211
+msgid "%H:%M:%S"
+msgstr "%k∶%M∶%S"
+
+#. Translators: timestamp format for events on the
+#. * current day, showing the time without seconds in
+#. * 24-hour format.
+#: ../src/gl-util.c:218
+msgid "%H:%M"
+msgstr "%k∶%M"
+
+#. Translators: timestamp format for events in the
+#. * current year, showing the abbreviated month name,
+#. * day of the month and the time with seconds in
+#. * 24-hour format.
+#: ../src/gl-util.c:228
+msgid "%b %e %H:%M:%S"
+msgstr "%e. %B %k∶%M∶%S"
+
+#. Translators: timestamp format for events in the
+#. * current year, showing the abbreviated month name,
+#. * day of the month and the time without seconds in
+#. * 24-hour format.
+#: ../src/gl-util.c:236
+msgid "%b %e %H:%M"
+msgstr "%e. %B %k∶%M"
+
+#. Translators: timestamp format for events in
+#. * a different year, showing the abbreviated
+#. * month name, day of the month, year and the
+#. * time with seconds in 24-hour format.
+#: ../src/gl-util.c:247
+msgid "%b %e %Y %H:%M:%S"
+msgstr "%e. %B %Y %k∶%M∶%S"
+
+#. Translators: timestamp format for events in a
+#. * different year, showing the abbreviated month name,
+#. * day of the month, year and the time without seconds
+#. * in 24-hour format.
+#: ../src/gl-util.c:255
+msgid "%b %e %Y %H:%M"
+msgstr "%e. %B %Y %k∶%M"
+
+#. Transltors: the first string is the earliest timestamp of the boot,
+#. * and the second string is the newest timestamp. An example string might
+#. * be '08:10 - 08:30'
+#: ../src/gl-util.c:319
+#, c-format
+msgid "%s – %s"
+msgstr "%s – %s"
+
+#: ../src/gl-window.c:186
+msgid "Save logs"
+msgstr "Uložení záznamů"
+
+#: ../src/gl-window.c:189
+msgid "_Cancel"
+msgstr "_Zrušit"
+
+#: ../src/gl-window.c:190
+msgid "_Save"
+msgstr "_Uložit"
+
+#: ../src/gl-window.c:195
+msgid "log messages"
+msgstr "Zprávy ze záznamu"
+
+#: ../src/gl-window.c:248
+msgid "Unable to export log messages to a file"
+msgstr "Nelze exportovat zprávy ze záznamů do souboru"
+
+#: ../src/gl-window.c:474 ../src/gl-window.c:505
+msgid "Unable to read system logs"
+msgstr "Nelze přečíst systémové záznamy"
+
+#: ../src/gl-window.c:488
+msgid "Unable to read user logs"
+msgstr "Nelze přečíst uživatelské záznamy"
+
+#: ../src/gl-window.c:520
+msgid "No logs available"
+msgstr "Žádný záznam není dostupný"
+
+#~ msgid "Search the displayed logs"
+#~ msgstr "Prohledat zobrazené záznamy"
